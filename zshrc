@@ -21,11 +21,11 @@ bindkey '5~' kill-word
 export OLLAMA_MODELS=/mymedia/ollama-models
 export HF_HOME=/mymedia/huggingface-models
 # Ferramentas de compilação com Clang/LLVM
-export CC=clang
-export CXX=clang++
-export AR=llvm-ar
-export NM=llvm-nm
-export RANLIB=llvm-ranlib
+# # export CC=clang
+# export CXX=clang++
+# export AR=llvm-ar
+# export NM=llvm-nm
+# export RANLIB=llvm-ranlib
 
 export GPG_TTY=$(tty)
 export MESA_LOADER_DRIVER_OVERRIDE=radeonsi
@@ -164,7 +164,8 @@ VI_MODE_SET_CURSOR=true
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=pt_BR.UTF-8
+export LC_ALL=pt_BR.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
